@@ -109,3 +109,43 @@ body{
         font-size: 6px;
     }
 } /* FIN MEDIA QUERY 580 X 1023 */
+@media all and (max-width: 599px) {
+    .contenedor-padre{
+        width: 100%;
+        height: 100vh;
+        margin-top: 0px;
+    }
+    .tarjeta{
+        height: 300px;
+        width: 90%;
+    }
+    .logo img{
+    
+        height: 50%;
+        width: 20%;
+        margin-top: 90px;
+    }
+    .logo span{
+        font-size: 13px;
+    }
+    .logo h3{
+        font-size: 13px;
+    }
+    .logo h4{
+        font-size: 13px;
+        color: hsl(0, 0%, 59%);
+        margin: 10px    35px;
+    }
+    .informacion{
+        margin-top: 110px;
+    }
+    .informacion span{
+        font-size: 13px;
+        display: inline-block;
+        margin: 20px 20px;
+    }
+    .informacion p{
+        font-size: 7px;
+    }
+
+} /* fin media query 599px
