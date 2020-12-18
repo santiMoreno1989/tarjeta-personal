@@ -10,14 +10,14 @@ body{
 }
 .contenedor-padre{
     width: 80%;
-    height: 95vh;
+    height: 85vh;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     background: rgb(17,211,230);
     background: linear-gradient(90deg, rgba(17,211,230,1) 0%, rgba(7,124,136,1) 35%, rgba(17,211,230,1) 100%);
-    border: solid 1px red;
+    margin-top: 30px;
 }
 .tarjeta{
 
@@ -70,3 +70,42 @@ body{
     color: hsl(0, 0%, 59%);
     margin-top: 5px;
 }
+/* INICIO DE MEDIA QUERY 580 X 1023 */
+@media all  and (min-width: 600px) and (max-width: 1023px){
+
+    .contenedor-padre{
+        width: 580px;
+        height: 400px;
+    }
+    .tarjeta{
+        height: 250px;
+        width: 200px;
+    }
+
+    .logo img{
+    
+        height: 50%;
+        width: 30%;
+        margin-top: 70px;
+    }
+    .logo h3{
+        font-size: 13px;
+    }
+    .logo span{
+        font-size: 13px;
+    }
+    .logo h4{
+        font-size: 10px;
+        margin: 5px    35px;
+    }
+    .informacion{
+        margin-top: 80px;
+    }
+    .informacion span{
+        font-size: 10px;
+        margin: 20px 10px;
+    }
+    .informacion p{
+        font-size: 6px;
+    }
+} /* FIN MEDIA QUERY 580 X 1023 */
