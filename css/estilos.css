@@ -78,15 +78,15 @@ body{
         height: 400px;
     }
     .tarjeta{
-        height: 250px;
+        height: 220px;
         width: 200px;
     }
 
     .logo img{
     
-        height: 50%;
+        height: 60%;
         width: 30%;
-        margin-top: 70px;
+        margin-top: 60px;
     }
     .logo h3{
         font-size: 13px;
@@ -103,7 +103,7 @@ body{
     }
     .informacion span{
         font-size: 10px;
-        margin: 20px 10px;
+        margin: 15px 10px;
     }
     .informacion p{
         font-size: 6px;
