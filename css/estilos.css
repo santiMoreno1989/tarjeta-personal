@@ -7,6 +7,7 @@ body{
     display: flex;
     justify-content: center;
     font-family: 'Kumbh Sans', sans-serif;
+    background-image: url();
 }
 .contenedor-padre{
     width: 80%;
@@ -116,36 +117,33 @@ body{
         margin-top: 0px;
     }
     .tarjeta{
-        height: 300px;
+        height: 400px;
         width: 90%;
     }
     .logo img{
     
-        height: 50%;
-        width: 20%;
-        margin-top: 90px;
+        height: 60%;
+        width: 30%;
+        margin-top: 110px;
     }
     .logo span{
-        font-size: 13px;
+        font-size: 20px;
     }
     .logo h3{
-        font-size: 13px;
+        font-size: 20px;
     }
     .logo h4{
-        font-size: 13px;
+        font-size: 20px;
         color: hsl(0, 0%, 59%);
         margin: 10px    35px;
     }
     .informacion{
-        margin-top: 110px;
+        margin-top: 140px;
     }
     .informacion span{
-        font-size: 13px;
+        font-size: 20px;
         display: inline-block;
-        margin: 20px 20px;
-    }
-    .informacion p{
-        font-size: 7px;
+        margin: 30px 30px;
     }
 
 } /* fin media query 599px
